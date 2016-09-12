@@ -37,6 +37,40 @@
               "version": "0.10.0-dev.nrf5"
             }
           ]
+        },
+        {
+          "name": "Nordic Semiconductor nRF5 Boards",
+          "architecture": "nRF5",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+          },
+          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.2.0.tar.gz",
+          "archiveFileName": "arduino-nRF52-0.2.0.tar.gz",
+          "checksum": "MD5:1ed95ee9030e4ca1371665258a3cdee4",
+          "size": "562847",
+          "boards": [
+            {"name": "nRF52 DK"},
+            {"name": "Bluz DK"},
+            {"name": "RedBearLab BLE Nano"},
+            {"name": "RedBearLab nRF51822"},
+            {"name": "BBC micro:bit"},
+            {"name": "OSHChip"},
+            {"name": "Generic nRF51822"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "sandeepmistry",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "sandeepmistry",
+              "name": "openocd",
+              "version": "0.10.0-dev.nrf5"
+            }
+          ]
         }
       ],
       "tools":[
